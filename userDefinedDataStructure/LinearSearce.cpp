@@ -20,9 +20,13 @@ int main(){
            cout<<search_num;
         }
     }
+
     if(i<=array_size){
     	cout<<"Not found!\n";
 	}
-  
+
+
+
+    
     return 0;
 }
