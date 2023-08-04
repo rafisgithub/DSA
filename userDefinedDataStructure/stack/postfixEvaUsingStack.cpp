@@ -11,8 +11,9 @@ int main(){
 //	function calling
 
 	cout<<"Result:"<<postfixEvaluation(expr)<<endl;
-	return 0;
+
 	}
+	return 0;
 }
 //function defination
 int postfixEvaluation(string x){
