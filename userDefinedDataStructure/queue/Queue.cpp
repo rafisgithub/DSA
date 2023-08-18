@@ -74,14 +74,14 @@ void peek(){
     f++;
 }
 int isFull(){
-    if(r == queue_size){
+    if(f==0 && r == queue_size){
         return 1;
     }else{
         return 0;
     }
 }
 int isEmpty(){
-    if(f==queue_size){
+    if(f==r){
         return 1;
     }else{
         return 0;
